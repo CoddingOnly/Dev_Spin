@@ -1,0 +1,286 @@
+ 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Courses - Программирование</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap">
+  <link rel="icon" href="img/Favicon.ico"/>
+</head>
+<body>
+
+<!-- ХЕДЕР И БУРГЕР -->
+<header class="header1">
+  <div class="icon">
+    <img src="img/Spinner.png" class="imgspinner" alt="Логотип">
+    <p class="DevSpin"><b>DevSpin</b></p>
+  </div>
+  <img src="img/Burger.png" class="imgspinner2" id="burger-btn" alt="Меню">
+  <div class="burger-menu" id="burger-menu">
+    <span class="close-btn" id="close-btn">&times;</span>
+    <ul class="menu-words">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="#vedenie">Введение</a></li>
+      <li><a href="#Osnovi-html">Основы HTML</a></li>
+      <li><a href="#Osnovi-css">Основы CSS</a></li>
+      <li><a href="#Osnovi-js">Основы JS</a></li>
+      <li><a href="#zacluchenie">Заключение</a></li>
+      <li><a href="#contacts1">Контакты</a></li>
+    </ul>
+    <a href="https://t.me/devspinrazrabotchiki">
+      <div class="small-image-purple">
+      <img src="img/PurpleTelegram.png" alt="Иконка 3">
+     </a>
+     <a href="https://vk.com/shatr_ov">
+      <img src="img/PurpleVk.png" alt="Иконка 3">
+     </a>
+     <a href="https://chat.whatsapp.com/GKdCO3rgIXP3ziEY8tHRgc">
+      <img src="img/PurpleWhatsup.png" alt="Иконка 3">
+     </a>
+     </div>
+   <p class="number-footer-purple">+7 (996)-234-24-85</p>
+   <p class="mail-footer-purple">devspinrazrabotchiki@yandex.ru</p>
+  </div>
+</header>
+
+<!-- ПРОФЕСИЯ РАЗРАБОТЧИК -->
+<section class="hero1">
+  <div class="online-curse1">
+    <h1 class="professia1">Веб-разработка </h1>
+     <h1 class="professia2">(HTML, CSS, JavaScript)</h1>
+    </div>
+  </section>
+
+
+ <!--  ВВЕДЕНИЕ -->
+ <h1 class="whyus-vvedenie" id="vedenie"><b>ВВЕДЕНИЕ</b></h1>
+ <section class="vvedenie">
+  <div class="vvedenie-text">
+  Прежде чем начинать изучение HTML, CSS и JavaScript, важно понять общую картину:
+  <br>
+  • Веб-разработка — это процесс создания веб-сайтов и веб-приложений.
+  <br>
+  • Веб-разработка состоит из Frontend (клиентская часть) и Backend (серверная часть).
+  <br>
+  • HTML, CSS и JavaScript — это языки, которые используются для создания интерфейсов и взаимодействия с пользователем.
+  </div>
+</section>
+
+
+<h1 class="whyusHTML"><b>ОСНОВЫ HTML</b></h1>
+<section class="OsnoviHtml" id="Osnovi-html">
+<div class="Osnovi-text">
+<p>HTML — это язык разметки, который нужен 
+для создания структуры веб-страницы.</p>
+</div>
+</section>
+
+
+<h1 class="whyus4"><b>СТРУКТУРА  HTML-ДОКУМЕНТА</b></h1>
+<section class="structura">
+<div class="benefit-card-structura">
+<div class="text-structura">
+     <p><span class="beruzov">!DOCTYPE html</span>
+    <span>— объявление типа документа.</span></p>
+
+     <p><span class="pink">html lang="ru"</span>
+    <span>— корневой элемент, язык страницы.</span></p>
+
+    <p><span class="purple">head</span>
+    <span>— метаинформация о странице (не отображается на странице)..</span></p>
+
+    <p><span class="lightpirple">body</span>
+    <span> — тело страницы (содержит контент).</span></p>
+</div>
+</section>
+
+
+<h1 class="whyus4"><b>ОСНОВНЫЕ ЭЛЕМЕНТЫ HTML </b></h1>
+<section class="BigLaptop">
+  <img src="img/BigLaptop.png" class="BigLaptopImg" id="" alt="Меню">
+</section>
+
+
+<h1 class="whyus5"><b>ФОРМЫ</b></h1>
+ <section class="forms">
+  <div class="benefit-card-forms ">
+   <div class="text-forms">
+    <p>Формы — это элементы HTML, которые позволяют пользователю отправлять данные на сервер:<br>
+    <span class="purple">form action="/submit" method="post" label for="username"</span><br>
+    <span>Имя</span>
+    <span class="beruzov">
+    label input type="text" id="username" name="username">
+      input type="submit" value="Отправить" form </span></p>
+   </div>
+  </div>
+</section>
+
+
+
+<h1 class="whyus6"><b>ОСНОВЫ CSS</b></h1>
+<section class="OsnoviCss" id="Osnovi-css">
+  <div class="OsnoviCss-text">
+  <p>CSS используется для стилизации HTML.
+    Вы можете задавать цвета, шрифты, размеры и другие параметры.</p>
+  </div>
+ </section>
+
+
+ <div class="BlockCss">
+  <div class="RectangleCss">
+    <div class="Text-blockCss">
+
+<!-- 1 -->
+
+  <h1 class="TextCss">Включение CSS в HTML</h1>
+  <p class="TextCss1">
+  • Внутренний стиль: <span class="pink">&lt;style&gt;...&lt;/style&gt;</span> внутри тега &lt;head&gt;<br>
+  • Внешний файл: &lt;link rel="stylesheet" href="styles.css"&gt;
+  </p>
+
+<!-- 2 -->
+
+  <h1 class="TextCss0">Селекторы CSS</h1>
+  <p class="TextCss1">
+  Селекторы определяют, к каким элементам HTML применяется стиль<br>
+  • По тегу:<span class="beruzov"> p { color: red; }</span><br>
+  • По классу:<span class="pink">.class { color: blue; }</span><br>
+  • По идентификатору:<span class="beruzov">{ color: green; }</span><br>
+  </p>
+
+<!-- 3 -->
+
+  <h1 class="TextCss0">Основные свойства CSS</h1>
+  <p class="TextCss1">
+  • Цвет:<span class="pink"> color, background-color</span><br>
+  • Шрифты:<span class="beruzov">font-family, font-size, font-weight</span><br>
+  • Рамки:<span class="beruzov">padding, margin</span><br>
+  • Цвет:<span class="pink">  border</span><br> 
+  • Выравнивание:<span class="beruzov"> text-align, vertical-align</span><br>
+  </p>
+
+<!-- 4 -->
+
+  <h1 class="TextCss0">Макеты</h1>
+  <p class="TextCss1">
+  • Блочные элементы: <span class="beruzov">&lt;div&gt;, &lt;section&gt;, &lt;article&gt;</span><br>
+  • Гибкие макеты: <span class="pink"> display: flex;, display: grid;</span><br>
+  • Позиционирование:  <span class="beruzov">position: relative;, position: absolute;, position: fixed;</span><br>
+  </p>
+
+  </div>
+ </div>
+
+ <h1 class="whyus7"><b>ОСНОВЫ JS</b></h1>
+ <section class="OsnoviJs" id="Osnovi-js">
+   <div class="OsnoviJs-text">
+   <p>JavaScript — это язык программирования, который используется для динамического взаимодействия 
+    с веб-страницей, создания анимаций, обработки событий и выполнения логики на клиентской стороне.</p>
+   </div>
+  </section>
+
+<!--  КУБЫ И ПРЯМОУГОЛЬНИК С СЕРТИФИКАТОМ  -->
+<div class="squares-containerJs">
+    <div class="squaresJs">
+        <div class="squareJs">
+            <h1 class="zagJs">ВВЕДЕНИЕ В JS </h1>
+            <p class="textJs">
+              JS добавляется в HTML с помощью тега<span class="purple"> &lt;script&gt;:</span><br>
+              <span class="beruzov">&lt;script&lt;console.log("Hello, world!"); &lt;/script&gt;</span></p>
+        </div>
+
+        <div class="squareJs1">
+            <h1 class="zagJs">ПЕРЕМЕННЫЕ</h1>
+            <p class="textJs">Объявление переменных:<br>
+            <span class="purple">let, const, var</span><br>
+            Типы данных: строка <span class="beruzov">("text"),</span> число<br>
+            <span class="beruzov">(42),</span> булев тип <span class="beruzov">(true, false),</span> <br>
+            массив <span class="beruzov">([1, 2, 3]),</span><br>
+            объект <span class="beruzov">({name: "John", age: 30})</span>
+            </p>
+        </div>
+
+        <div class="squareJs">
+            <h1 class="zagJs">ОПЕРАЦИИ</h1>
+            <p class="textJs">
+            Арифметические операторы:<span class="purple">+, -, *, / ;</span><br>
+            Сравнение: <span class="beruzov">==, !=, &gt;, &lt;, &gt;=, &lt;= ;</span><br>
+            Логические операторы:<br>
+            <span class="beruzov">&& (и), || (или)</span>
+
+            </p>
+        </div>
+
+        <div class="squareJs">
+            <h1 class="zagJs">ЦИКЛЫ</h1>
+            <p  class="textJs">
+              for:<br>
+              <span class="purple">for (let i = 0; i &lt; 5; i++) { console.log(i); }</span><br>
+              while:<br>
+              <span class="beruzov">let i = 0; while (i &lt; 5) { console.log(i); i++; }</span>
+
+
+            </p>
+        </div>
+    </div>
+
+    <div class="rectangleJs">
+        <h1 class="zag1Js">УСЛОВНЫЕ КОНСТРУКЦИИ</h1>
+        <p class="textJs1">
+        <span class="beruzov">if (age >= 18) { console.log("Вы совершеннолетний.");
+         } else { console.log("Вы не совершеннолетний."); }</span>
+
+        <h1 class="zag2Js">ФУНКЦИИ</h1>
+        <p class="textJs1">
+        <span class="purple">function greet(name) { return "Привет, " + name; } 
+          console.log(greet("Мир"));</span>
+
+
+        <h1 class="zag2Js">ОБРАБОТКА СОБЫТИЙ</h1>
+        <p class="textJs1">
+          Слушатель события: <span class="beruzov">addEventListener
+          document.getElementById("myButton").addEventListener("click", function()
+          { alert("Кнопка нажата"); });</span>
+
+
+        <h1 class="zag2Js">МАНИПУЛЯЦИИ С DOM
+        <span class="Doom">(Object Model)</span></h1>
+        <p class="textJs1">
+          DOM — это интерфейс для взаимодействия с HTML-документом с помощью JavaScript.<br>
+          <span class="purple">document.getElementById("myDiv").innerHTML = "Новый текст";</span>
+        </p>
+    </div>
+</div>
+
+
+<h1 class="whyus8"><b>ЗАКЛЮЧЕНИЕ</b></h1>
+<section class="zacluchenie" id="zacluchenie">
+  <div class="zacluchenie-text">
+    Теперь, когда вы изучили основы HTML, 
+    CSS и JavaScript, вы готовы создавать 
+    простые веб-страницы и веб-приложения. Важно 
+    продолжать практиковаться, изучать более сложные концепции
+     и использовать фреймворки и библиотеки для ускорения разработки.
+
+  </div>
+  <a href="praktica.html" class="zacluchenie-btn"><b>Начать курс</b></a>
+</section>
+
+ 
+
+<footer class="footerX" id="contacts1">
+  <div class="footer-icon">
+    <img src="img/Spinner.png" class="footer-imgspinner" alt="Логотип">
+    <p class="footer-DevSpin"><b>DevSpin</b></p>
+
+</footer>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
